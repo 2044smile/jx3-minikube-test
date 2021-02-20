@@ -64,5 +64,8 @@ releases:
   name: local-external-secrets
   values:
   - jx-values.yaml
+- chart: external-secrets/kubernetes-external-secrets
+- chart: banzaicloud-stable/vault-operator
+- chart: jx-labs/vault-instance
 templates: {}
 renderedvalues: {}
